@@ -13,6 +13,7 @@ public class ItemManager : MonoBehaviour
     }
 
     public GameObject[] items;
+    public GameObject[] itemImages;
 
     public bool[] gotItems;
 
@@ -42,6 +43,8 @@ public class ItemManager : MonoBehaviour
         }
 
         gotItems[(int)selected] = true;
+        itemImages[(int)selected].SetActive(true);
+
         selected = ITEM_TYPE.NONE;
     }
 }

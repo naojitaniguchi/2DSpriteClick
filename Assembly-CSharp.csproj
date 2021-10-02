@@ -60,8 +60,9 @@
     <Compile Include="Assets\Scripts\CloseDialog.cs" />
     <Compile Include="Assets\Scripts\ItemSpriteClicked.cs" />
     <Compile Include="Assets\Scripts\ItemManager.cs" />
-    <Compile Include="Assets\Scripts\PlayerFollow.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\PlayerFollow.cs" />
+    <Compile Include="Assets\Scripts\ItemPanel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
